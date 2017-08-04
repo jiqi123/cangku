@@ -1,0 +1,110 @@
+/* line 1, style.scss */
+body {
+  font-size: .12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  background: #f3f3f3; }
+
+/* line 13, style.scss */
+.header {
+  font-size: .14rem;
+  height: .44rem;
+  line-height: .44rem;
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  background: #fff; }
+  /* line 21, style.scss */
+  .header ul {
+    display: flex; }
+    /* line 23, style.scss */
+    .header ul li {
+      flex: 1;
+      text-align: center; }
+    /* line 27, style.scss */
+    .header ul li:hover {
+      color: #007AFF;
+      border-bottom: 1px solid #007AFF; }
+
+/* line 33, style.scss */
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll; }
+
+/* line 37, style.scss */
+.main {
+  background: #fff;
+  margin-top: .1rem;
+  padding-top: .1rem;
+  padding-bottom: .1rem; }
+  /* line 42, style.scss */
+  .main .cont {
+    width: 90%;
+    height: 1rem;
+    border-radius: 10px;
+    margin-top: .1rem;
+    margin-left: 5%;
+    border: 1px solid #ccc; }
+    /* line 49, style.scss */
+    .main .cont .top {
+      width: 100%;
+      height: .6rem;
+      color: #fff;
+      display: inline-block;
+      border-radius: 10px 10px 0 0;
+      position: relative; }
+      /* line 56, style.scss */
+      .main .cont .top .h3 {
+        font-weight: normal;
+        font-size: .2rem;
+        padding-top: .1rem;
+        color: #fff; }
+      /* line 65, style.scss */
+      .main .cont .top .b {
+        font-weight: normal;
+        font-size: .4rem;
+        box-sizing: border-box;
+        color: #fff;
+        position: absolute;
+        top: .1rem;
+        left: .3rem; }
+      /* line 75, style.scss */
+      .main .cont .top span {
+        position: absolute;
+        right: .1rem;
+        bottom: .02rem;
+        font-size: .2rem; }
+    /* line 84, style.scss */
+    .main .cont p {
+      text-align: center;
+      padding-top: .03rem; }
+    /* line 88, style.scss */
+    .main .cont .ys {
+      color: #007AFF; }
+    /* line 91, style.scss */
+    .main .cont .ys1 {
+      color: #ccc; }
+
+/* line 97, style.scss */
+.footer {
+  height: .5rem;
+  line-height: .5rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  display: -webkit-flex; }
+  /* line 103, style.scss */
+  .footer a {
+    -webkit-flex: 1;
+    color: #37bc9b;
+    font-size: .16rem; }
+    /* line 107, style.scss */
+    .footer a i {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+
+/*# sourceMappingURL=style.css.map */
